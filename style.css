@@ -1,0 +1,39 @@
+body {
+    background: #222;
+    color: #eee;
+    margin: 50px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+input[type=submit], button{
+    background: green;
+    font-family: 'Orbitron', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    transition: 0.4s all;
+}
+
+.formatted {
+    display: none;
+}
+
+input[type=submit]:hover {
+ background: #4ca64c;
+}
+
+a {
+    color: #fff;
+}
