@@ -187,7 +187,7 @@ print "<div class=\"formatted\">$newtext</div>";
       </script>';
       ?>
      
-<p><button><a href="/index.html">Back</a></button></p>
+<p><button><a href="/index.php">Back</a></button></p>
 
 </body>
 </html>
