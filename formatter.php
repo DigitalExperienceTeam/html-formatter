@@ -61,6 +61,10 @@ $i = '/<i>/';
 
 $i2 = '/<\\/i>/';
 
+$font = '/<font[^>]*>/';
+
+$font2 = '/<[^>]*font>/';
+
 $type ='/type="[^>]*"/';
 
 $listpar = '/<li><p>/';
@@ -113,7 +117,7 @@ $oldtext = preg_replace($style, $replacement, $oldtext);
 
 $oldtext = preg_replace(array($h1, $h2, $h3, $h4, $h5, $h6, $pextra), $p, $oldtext);
 
-$oldtext = preg_replace(array($span, $span2, $div, $div2, $strong, $strong2, $u, $u2, $i, $i2, $type), $replacement, $oldtext);
+$oldtext = preg_replace(array($span, $span2, $div, $div2, $strong, $strong2, $u, $u2, $i, $i2, $type, $font, $font2), $replacement, $oldtext);
 
 $oldtext = preg_replace($listpar, $list, $oldtext);
 
